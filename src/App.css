@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: white;
+  border-color: white;
+  border-bottom-style: none;
+  border-right-style: none;
+}
+.glyphicon{
+  color: blue;
+  font-size: 2.5rem;
+}
+.Add{
+  margin-left: 120rem;
+}
+.people-name{
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+}
+.people-name > hr{
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.border{
+  padding-top: 1rem;
+  /* background-color: black; */
+  border-top: #eee solid 0.1rem;
+  
+}
+.sidenav{
+  padding-right: 0rem !important;
+  padding-left: 1rem ;
+  /* background-color: black; */
+  /* border-right-color: #eee; */
+  border-right: #eee solid 0.1rem;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+/*Modal begin */
+.header-modal{
+  background-color: white;
+  /* border-bottom: 1px black; */
+}
+.header-modal > i{
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  color: black;
+}
+.header-modal > button{
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+  color: black;
+  margin-right: 4rem;
+}
+.body{
+  margin: 30px 15px 20px 30px;
+  font-weight: lighter;
+}
+.footer{
+  padding-left:280px;
+  padding-bottom: 20px;
+}
+#closebtn{
+  margin-right:2rem;
+  margin-left: -2 rem;
+  padding: 5px 7px 5px 7px;
+  font-size: 14px;
+}
+
+#addbtn {
+  background-color: blue;
+  margin-right: 10rem;
+  color: white;
+  padding: 5px 7px 5px 7px;
+  font-size: 14px;
+}
+/* Modal end */
+.form-label{
+  
+  font-weight: 300;
+}
+.people-details > i{
+  margin-top:4rem;
+  margin-left: 8rem;
+  font-size: 4rem;
+}
+.details {
+  margin-top: 4rem;
+  margin-right: 8rem;
+  margin-left: 15rem;
+}
+.row{
+  margin-bottom: 2rem;
+  font-size:1.7rem;
+  font-weight: 100;
+}
+.col-md-2{
+  margin-right: -4rem;
+}
+.h4  > button{
+  margin-left: 10rem;
+}
